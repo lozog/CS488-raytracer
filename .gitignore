@@ -1,0 +1,22 @@
+/Makefile
+src/Makefile
+Index_Example*/Makefile
+Instanced_Example*/Makefile
+shared/glfw**/Makefile
+shared/imgui**/Makefile
+
+build
+
+*.a
+*.o
+*.swp
+*.swo
+*.idea
+*.xcodeproj/xcuserdata
+*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcscmblueprint
+*.DS_Store
+imgui.ini
+
+# Ignore binary name
+src/A4
